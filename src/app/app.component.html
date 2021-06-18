@@ -1,0 +1,74 @@
+<header>
+  <!--<nav>
+      <div>
+          <h3><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">EpicSbornia</a></h3>
+      </div>
+      <ul>
+          <li><a routerLink="/alcoholic" routerLinkActive="active">Alcoholic</a></li>
+          <li><a routerLink="/non_alcoholic" routerLinkActive="active">Non Alcoholic</a></li>
+          <li><a routerLink="/ordinary_drink" routerLinkActive="active">Ordinary Drinks</a></li>
+          <li><a routerLink="/cocktail" routerLinkActive="active">Cocktails</a></li>
+      </ul>
+  </nav> -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+      <div class="container-fluid">
+          <a class= "navbar-brand" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><img src="../assets/img/Logo.jpeg" style="height: 100px; width: 300px;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav m-3">
+            <a class="m-3"routerLink="/alcoholic" routerLinkActive="active">Alcoholic</a>
+            <a class="m-3"routerLink="/non-alcoholic" routerLinkActive="active">Non Alcoholic</a>
+            <a class="m-3" routerLink="/ordinary-drink" routerLinkActive="active">Ordinary Drinks</a>
+            <a  class="m-3" routerLink="/cocktail" routerLinkActive="active">Cocktails</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>
+
+
+<router-outlet></router-outlet>
+
+
+<footer class="shadow mt-5 ">
+  <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+      
+            <div class="col-md-3 col-lg-3 mt-3 pt-2 ">
+              <address>
+                <h4 class="myh4f">Contact</h4>
+                <a class="mymail" href="mailto:info@Epiccockatil.com"> info@epicocktail.com</a><br>
+                <p> +39 349345678</p>
+                
+              </address>
+            </div>
+            <div class="col-md-3 col-lg-3 mt-1 pt-1">
+              <address>
+                <h3 class="myh4f">EpiCocktail()</h3>
+                <p>via del Mojito 3<br><small>P.IVA 2345678</small></p>
+                <i class="fa fa-twitter" aria-hidden="true"></i><br>
+                <i class="fa fa-facebook-square" aria-hidden="true"></i><br>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <br>
+                <small>EpiCocktail() &trade;</small>
+                
+                
+                 
+                
+              </address>
+            </div>
+            <div class="col-md-3 col-lg-3 mt-3 pt-2">
+              <address>
+                <h4 class="myh4f">Service</h4>
+                <p>Same-Day delivery<br>
+                  
+                  Mon - Fri: 11am - 10pm​<br>
+                  Sat - Sun: 11am - 12am</p>
+              </address>
+            </div>
+     
+      </div>
+    </div>
+</footer>

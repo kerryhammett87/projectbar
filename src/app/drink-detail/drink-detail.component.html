@@ -1,0 +1,43 @@
+<!--<pre>{{drink | json}}</pre>-->
+
+<!--<div class="container">
+    <div class="row">
+        <div class="card col-md-4 m-3" style="width: 18rem;">
+            <img [src]="drink.strDrinkThumb + '/preview'" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{drink.strDrink}}</h5>
+              <p class="card-text">{{drink.strInstructionsIT}}</p>
+            </div>
+          </div>
+    </div>
+</div>-->
+<div class="loader" *ngIf="!drink"></div>
+<div class="card" style="width: 70rem;">
+    <div class="row g-0 ">
+      <div class="col-md-4">
+        <img [src]="drink.strDrinkThumb + '/preview'" class="card-img-top" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="card-title text-center">{{drink.strDrink}}</h5>
+            <p class="card-text">{{drink.strInstructionsIT}}</p>
+            <h5>Ingredienti:</h5>
+            <ul>
+                <li *ngFor="let i of ingredients" style="list-style-type: none;">{{i}}</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--<div class="container">
+  <div class=" tilt card" data-tilt data-tilt-glare="true" data-tilt-scale="1.1">
+      <div class="content">
+          <img [src]="drink.strDrinkThumb + '/preview' " alt="...">
+          <h3>{{drink.strDrink}}</h3>
+          <p>{{drink.strInstructionsIT}}</p>
+          <a href="#">See more details...</a>
+      </div>
+  </div>
+</div>
+-->

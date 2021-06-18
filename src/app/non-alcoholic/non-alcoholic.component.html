@@ -1,0 +1,17 @@
+
+<!--<pre>{{nonAlcoholic | json }}</pre>-->
+
+<div class="container">
+    <div class="row row-cols-auto">
+        <div class="card col-md-4 col-lg-2 m-3" *ngFor="let drink of nonAlcoholic">
+            <img [src]="drink.strDrinkThumb + '/preview'  " class="card-img-top" alt="...">
+            <div class="card-body ab">
+                <h5 class="card-title">{{drink.strDrink}}</h5>
+                
+                <div class="bottoni">
+                <a [routerLink]= "['/non-alcoholic', drink.idDrink]" class="btn btn-primary">Dettagli drink</a>
+            </div>
+            </div>
+            </div>
+    </div>
+</div>

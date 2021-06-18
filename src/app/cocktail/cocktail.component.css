@@ -1,0 +1,9 @@
+.ab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.card{
+    background: rgba(0, 0, 255, 0.096);
+}

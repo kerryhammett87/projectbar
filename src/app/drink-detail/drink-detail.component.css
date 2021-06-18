@@ -1,0 +1,16 @@
+.card {
+    margin: 300px auto;
+    background-color: #f8ca224d;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid yellow;
+}
+.card-title {
+    font-size: 2em;
+    color: purple;
+}
+.card-text {
+
+    color: rgb(97, 87, 87);
+    font-size: 1.5em;
+}

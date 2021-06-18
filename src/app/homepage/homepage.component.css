@@ -1,0 +1,69 @@
+.div1 {
+    margin: 200px auto;
+    height: 400px;
+    width: 400px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvvf-46l9vCf8vcOLBhdLwLorVArumnnTcw&usqp=CAU);
+    background-size: cover;
+    background-position:center;
+    border-radius:400px ;
+    border:2px solid white;
+    
+    
+}
+.div2 {
+    margin: 200px auto;
+    height: 400px;
+    width: 400px;
+    background-image:url(https://static.qnm.it/r/845X0/www.qnm.it/img/cocktail-pi%C3%B9-bevuti-dellestate-2017.jpeg);
+    background-size: cover;
+    background-position:center;
+    border-radius:400px ;
+    border:2px solid white;
+}
+
+
+.div3 {
+    margin: 200px auto;
+    height: 400px;
+    width: 400px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCsQPGJ3iC1H9-bVkL4HR16soMj2aExf79ew&usqp=CAU);
+    background-size: cover;
+    background-position:center;
+    border-radius:400px ;
+    border:2px solid white;
+}
+
+.s1 {
+    margin: 200px auto;
+    height: 600px;
+    width: 600px;
+    background-image:url(https://www.foodserviceweb.it/wp-content/uploads/sites/4/2020/07/cocktail-spiaggia.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius:600px ;
+    border:2px solid white;
+    position: relative;
+    
+}
+h1 {
+    position:absolute;
+    bottom: 50px;
+    font-size: 5em;
+    color: #003F7C;
+    font-style: italic;
+
+}
+h2 {
+    position:absolute;
+    bottom: 50px;
+    font-size: 5em;
+    color: #003F7C;
+    font-style: italic;
+}
+.s2 {
+    
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
